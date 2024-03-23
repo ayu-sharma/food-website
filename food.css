@@ -1,0 +1,388 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This ensures the content takes at least the full viewport height */
+    /* background-image: url(Photos/background.jpg); */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #958e8d;
+  }
+  
+  main {
+    flex: 1; /* This makes the main section expand to fill the remaining space */
+  }
+  
+  .hero {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .section {
+    margin: 0rem 4rem 0rem 4rem;
+    
+  }
+  
+  .menu-item {
+    text-align: center;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+
+  .menu-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    flex-shrink: 0;
+  }
+ .gallery-container-1 {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px; 
+  }
+  .gallery-container-1 img {
+    padding-bottom: 2rem;
+  }
+
+  .gallery-container-2 {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; 
+    }
+    .gallery-container-2 img {
+      padding-bottom: 2rem;
+    }
+ 
+  #about p {
+    font-size: xx-large;
+  }
+  #home-about {
+    display: none;
+  }  
+
+  /* Carausal */
+  body {
+    margin: 0;
+  }
+  
+  .carousel {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 1s ease;
+  }
+  
+  .slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  /* Itmes */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .menu-section {
+    text-align: center;
+  }
+  
+  .menu-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .menu-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .menu-item h3 {
+    margin-top: 0;
+  }
+  
+  .menu-item p {
+    margin: 5px 0;
+  }
+
+  .checkout-btn {
+    background-color: #4a4d4a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px; */
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.order-summary {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.order-summary {
+    margin-bottom: 40px;
+}
+
+.order-summary img {
+    max-width: 100px;
+}
+
+.payment-form label, .payment-form input {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-form input {
+    width: 100%;
+    padding: 6px;
+}
+
+.pay-btn {
+  background-color: #4a4d4a;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #060606;
+}
+.checkout {
+  display: flex;
+flex-direction: column;
+}
+h1 {
+  margin-top: 20px;
+}
+
+.form-container {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: vertical;
+}
+
+button {
+  background-color: #4a4d4a;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+  /* MEDIA QUERY */
+
+  @media screen and (max-width: 768px) {
+    .gallery-container-1 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .gallery-container-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .nav-links {
+      display: none; 
+    }
+
+    /* Hamburger menu */
+    .hamburger-menu {
+      cursor: pointer;
+      padding: 10px;
+    }
+  
+    .hamburger {
+      width: 25px;
+      height: 3px;
+      background-color: white; /* Customize the hamburger color */
+      margin: 5px 0;
+      transition: transform 0.3s; /* Smoothly rotate the hamburger icon */
+    }
+  
+    /* Show the nav links when the hamburger is clicked */
+    .nav-links.show-nav {
+      display: flex;
+      flex-direction: column;
+      background-color: #333; /* Customize the background color */
+      padding: 10px;
+      position: absolute;
+      top: 60px; /* Adjust the top position as needed */
+      left: 0;
+      right: 0;
+      opacity: 0; /* Initially set opacity to 0 */
+      pointer-events: none; /* Disable pointer events until animation is complete */
+      animation: fadeIn 0.3s forwards; /* Fade in animation */
+    }
+  
+    .show-nav li {
+      margin-bottom: 10px;
+    }
+  
+    .show-nav a {
+      color: white; /* Customize the link color */
+      text-decoration: none;
+    }
+
+  }
+  @media screen and (max-width: 420px) {
+    main{
+      padding: 0px;
+    }
+    .section {
+      margin: 0rem 1rem 0rem 1rem;
+    }
+    .hero {
+      padding: 2rem 0rem 3rem 0rem;
+    }
+    .carousel {
+      width: 100%;
+      height: 35vh;
+      overflow: hidden;
+      position: relative;
+    }
+    #home-about {
+      display: block;
+    }
+    #home-about p {
+      font-size: small;
+    }
+    #home-about h2{
+      font-size: medium;
+  }
+  .hero h2 {
+    font-size: large;
+  }
+  .hero p {
+    font-size: small;
+  }
+}
+  @media screen and (max-width: 980px) {
+    main{
+      .section {
+        margin: 0rem 2rem 0rem 2rem;
+      }
+      padding: 0px;
+    }
+  }
+  

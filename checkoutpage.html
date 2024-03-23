@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="food.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <h1 class="logo">A&A Food</h1>
+        <div class="hamburger-menu">
+          <div class="hamburger"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="food.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    <div class="checkout">
+      <h1>Checkout</h1>
+      <div class="order-summary">
+          <div class="order-summary-content">
+          </div>
+      </div>
+      <div class="payment-form">
+          <h2>Payment Details</h2>
+          <label for="cardholder">Cardholder Name</label>
+          <input type="text" id="cardholder" required>
+  
+          <label for="cardnumber">Card Number</label>
+          <input type="text" id="cardnumber" required>
+  
+          <label for="expiry">Expiry Date</label>
+          <input type="text" id="expiry" required>
+  
+          <label for="cvv">CVV</label>
+          <input type="password" id="cvv" required>
+  
+          <button class="pay-btn" onclick="completeOrder()">Pay Now</button>
+      </div>
+      </div>
+  
+  </main>
+  <footer>
+    <p>&copy; 2023 A&A Food. All rights reserved.</p>
+  </footer>
+  <script src="food.js"></script>
+<script>populateCheckoutPage()</script>
+</body>
+</html>

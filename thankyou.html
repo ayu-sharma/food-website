@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThankYou Page</title>
+  <link rel="stylesheet" href="food.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">A&A Food</h1>
+      <div class="hamburger-menu">
+        <div class="hamburger"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="food.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </nav> 
+  </header>
+  <main>
+    <h1>Thank You for Your Purchase!</h1>
+    <div class="order-summary">
+        <div class="order-summary-content">
+            <!-- Selected item information will be dynamically added here -->
+        </div>
+    </div>
+    <p>Your order has been successfully placed. We appreciate your business!</p>
+    <a href="food.html">Back to Home</a>
+  </main>
+    <footer>
+      <p>&copy; 2023 A&A Food. All rights reserved.</p>
+    </footer>
+    <script src="food.js"></script>
+    <script>populateOrderSummary()</script>
+    
+    
+</body>
+</html>
+
